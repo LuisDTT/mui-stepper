@@ -1,5 +1,5 @@
 import { Box, Typography } from '@mui/material'
-import { LogoSpace, MainSpace, FormSpace, Img } from './styles'
+import { LogoSpace, FormSpace, Img } from './styles'
 import DatosUsuario from './DatosUsuario'
 import DatosPersonales from './DatosPersonales'
 import DatosEntrega from './DatosEntrega'
@@ -20,7 +20,7 @@ const Form = () => {
 		0: <DatosUsuario changeStep={changeStep} />,
 		1: <DatosPersonales changeStep={changeStep} />,
 		2: <DatosEntrega changeStep={changeStep} />,
-		3: <Complete changeStep={changeStep} />
+		3: <Complete />
 	}
 
 	return (

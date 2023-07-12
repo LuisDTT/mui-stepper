@@ -4,11 +4,8 @@ import { Box, Typography } from '@mui/material'
 const Img = styled.img`
 	width: 70%;
 `
-interface Props {
-	changeStep: (step: number) => void
-}
 
-const Complete = ({ changeStep }: Props) => {
+const Complete = () => {
 	return (
 		<Box
 			sx={{
